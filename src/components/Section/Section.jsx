@@ -1,4 +1,3 @@
-import { Scar1 } from "../../assets"
 import { ThereImage, sectionImageBoxes } from "../../utiels/utiels"
 import "../Section/Style.css"
 const Section = () => {
@@ -25,7 +24,7 @@ const Section = () => {
             <h1 className="heddin1">Our Other Services</h1>
 
             <section className="section2">
-                {ThereImage?.map(({onetext, whotext, image}) => {
+                {ThereImage?.map(({ onetext, whotext, image }) => {
                     return (
                         <>
                             <div className="carBox2">
