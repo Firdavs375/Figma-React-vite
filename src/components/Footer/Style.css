@@ -7,7 +7,6 @@
 }
 
 .footer {
-    width: 1200px;
     margin: auto;
     background: #1F1905;
     padding: 40px 20px;
@@ -98,7 +97,7 @@
 }
 
 .end {
-    width: 1200px;
+    /* width: 1200px; */
     margin: auto;
     text-align: center;
     background: #EE8313;

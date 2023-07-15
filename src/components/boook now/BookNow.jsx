@@ -1,7 +1,10 @@
+import "../boook now/Style.css"
+
 const BookNow = () => {
   return (
-    <>
-    <h1>Hello BookNow Page</h1>
+    <><div className="comtainer">
+      <h1>Hello BookNow Page</h1>
+    </div>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { car1, car2, car3, car4 } from "../assets";
+import { Dubai, Jakarta, London, Madrid, Paris, Roma, car1, car2, car3, car4 } from "../assets";
 import { BookNowPage } from "../pages/BookNowPage";
 import { CarsPage } from "../pages/CarsPage";
 import { HomePage } from "../pages/HomePage";
@@ -72,4 +72,38 @@ export const ThereImage = [
         whotext: "If you want to celebrate your wedding in style and elegance, choose one car from our luxury collection.",
         image: Scar3
     }
+]
+
+
+export const CityBox = [
+    {
+        img: London,
+        CityName: "London",
+        CityText: "From $ 669,00 per day"
+    },
+    {
+        img: Madrid,
+        CityName: "Madrid",
+        CityText: "From $ 799,00 per day"
+    },
+    {
+        img: Paris,
+        CityName: "Paris",
+        CityText: "From $ 899,00 per day"
+    },
+    {
+        img: Dubai,
+        CityName: "Dubai",
+        CityText: "From $ 669,00 per day"
+    },
+    {
+        img: Roma,
+        CityName: "Roma",
+        CityText: "From $ 799,00 per day"
+    },
+    {
+        img: Jakarta,
+        CityName: "Jakarta",
+        CityText: "From $ 899,00 per day"
+    },
 ]

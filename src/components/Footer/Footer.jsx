@@ -8,7 +8,11 @@ import Youtube from "../../assets/img/youtube.svg"
 const Footer = () => {
   return (
     <>
+
       <footer className="footer">
+        <div className="container">
+
+      
         <div className="Logo_Text_Box">
           <img className="logo" src={logo} alt="svg" />
           <p className="text">HKinvision</p>
@@ -49,9 +53,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        </div>
       </footer>
+
       <footer className="end">
+        <div className="container">
+
         <h1 className="HeddingEnd">©2022 HKInvestor. All right reserved</h1>
+        </div>
       </footer>
     </>
   )

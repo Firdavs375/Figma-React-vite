@@ -71,10 +71,13 @@
     letter-spacing: 0.144px;
 }
 
-.section1 {
+.container1 {
+    width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .section2 {
@@ -96,6 +99,7 @@
     letter-spacing: 0.312px;
     margin-top: 120px;
     margin-bottom: 66px;
+    text-align: center;
     /* text-align: center; */
 }
 
@@ -117,4 +121,4 @@
     line-height: 28px;
     letter-spacing: 0.096px;
     margin-top: 16px;
-}
+}   
